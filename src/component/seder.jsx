@@ -5,13 +5,11 @@ const Seder = ({ dark = false, contents, title }) => {
     <header className={`header ${dark ? "dark" : ""}`}>
       <div>{contents ?? "Logo"}</div>
       <div className="nav_menu poppins-semibold">
-        <a href="#">Home</a>
-        <a href="#">Products</a>
+        <a href="#">Technology</a>
         <a href="#">About</a>
-        <a href="#">Contact us</a>
+        <a href="#">Career</a>
         <div className="buttons">
-          <button>Login</button>
-          <button>Sign up</button>
+          <button>Subscribe</button>
         </div>
       </div>
     </header>

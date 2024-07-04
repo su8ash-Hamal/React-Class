@@ -3,8 +3,14 @@
   justify-content: space-between;
   align-items: center;
   height: 60px;
-  box-shadow: -9px 35px 16px -20px rgba(0, 0, 0, 0.1);
-  padding: 0px 20px;
+  /* box-shadow: -9px 35px 16px -20px rgba(0, 0, 0, 0.1); */
+  /* padding: 0px 20px; */
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  width: 99%;
+  margin: auto;
+  background: transparent;
 }
 .dark {
   background-color: black;

@@ -1,14 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Seder from "./component/seder";
+import Header from "./component/Header";
+import { HeroSection } from "./component/HeroSection";
 function App() {
   return (
     <div>
-      <Seder contents={"Hrllo"} />
-      <Seder dark={true} />
-
-      <h2>Hello</h2>
-      <Seder />
+      <Header />
+      <HeroSection />
     </div>
   );
 }
